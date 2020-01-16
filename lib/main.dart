@@ -5,10 +5,10 @@ import 'dart:async' show Future;
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:url_launcher/url_launcher.dart';
 const chapterList = [
-  "info","El rey burgués", "El sátiro sordo","La ninfa","El fardo","El velo de la reina Mab","La canción de oro","El rubí","El palacio del sol","El pájaro azul","Palomas blancas y garzas morenas","En busca de cuadros","Acuarela 1","Paisaje 1","Aguafuerte","La vírgen de la paloma","La cabeza","Acuarela 2","Un retrato de Watteau","La Naturaleza muerta","Al carbón","Paisaje 2","El ideal","La muerte de la emperatriz de China","A una estrella","Primaveral","Estival","Autumnal","Pensamiento de otoño","A un poeta","Anagké","Caupolicán","Venus","De invierno","Leconte de Lisle", "Catulle Mendés","Walt Whitman","J. J. Palma","Salvador Díaz Mirón"
+  "El rey burgués", "El sátiro sordo","La ninfa","El fardo","El velo de la reina Mab","La canción de oro","El rubí","El palacio del sol","El pájaro azul","Palomas blancas y garzas morenas","En busca de cuadros","Acuarela 1","Paisaje 1","Aguafuerte","La vírgen de la paloma","La cabeza","Acuarela 2","Un retrato de Watteau","La Naturaleza muerta","Al carbón","Paisaje 2","El ideal","La muerte de la emperatriz de China","A una estrella","Primaveral","Estival","Autumnal","Pensamiento de otoño","A un poeta","Anagké","Caupolicán","Venus","De invierno","Leconte de Lisle", "Catulle Mendés","Walt Whitman","J. J. Palma","Salvador Díaz Mirón"
 ];
 const chapterFiles = [
-  "info","elReyBurgues", "elSatiroSordo", "laNinfa", "elFardo", "elVeloDeLaReinaMab", "laCancionDeOro", "elRubi", "elPalacioDelSol", "elPajaroAzul", "palomasBlancasYGarzasMorenas", "enBuscaDeCuadros", "acuarela1", "paisaje1", "aguafuerte", "laVirgenDeLaPaloma", "laCabeza", "acuarela2", "unRetratoDeWatteau", "laNaturalezaMuerta", "alCarbon", "paisaje2", "elIdeal", "laMuerteDeLaEmperatrizDeChina", "aUnaEstrella", "primaveral", "estival", "autumnal", "pensamientoDeOtono", "aUnPoeta", "anagke", "caupolican", "venus", "deInvierno", "leconteDeLisle", "catulleMendes", "waltWhitman", "jjpalma", "salvadorDiazMiron"
+  "elReyBurgues", "elSatiroSordo", "laNinfa", "elFardo", "elVeloDeLaReinaMab", "laCancionDeOro", "elRubi", "elPalacioDelSol", "elPajaroAzul", "palomasBlancasYGarzasMorenas", "enBuscaDeCuadros", "acuarela1", "paisaje1", "aguafuerte", "laVirgenDeLaPaloma", "laCabeza", "acuarela2", "unRetratoDeWatteau", "laNaturalezaMuerta", "alCarbon", "paisaje2", "elIdeal", "laMuerteDeLaEmperatrizDeChina", "aUnaEstrella", "primaveral", "estival", "autumnal", "pensamientoDeOtono", "aUnPoeta", "anagke", "caupolican", "venus", "deInvierno", "leconteDeLisle", "catulleMendes", "waltWhitman", "jjpalma", "salvadorDiazMiron"
 ];
 
 String chapter;
@@ -98,9 +98,6 @@ class _HomeState extends State<Home> {
           createButton(chapterList[36], context),
           createButton(chapterList[37], context),
 
-          createTitle("Información"),
-          createButton("info", context),
-
           createTitle("Mas libros gratis"),
 
           RaisedButton(
@@ -123,8 +120,18 @@ class _HomeState extends State<Home> {
             child: Text("Cantos a la purísima", style: TextStyle(color: Colors.white), textAlign: TextAlign.center,),
             onPressed: _launchURL("https://play.google.com/store/apps/details?id=io.purisima_griteria.letra_de_canciones")
           ),
+
+          createTitle("Extras"),
+          
+          RaisedButton(
+            color: Colors.blue,
+            child: Text("Web del desarrollador", style: TextStyle(color: Colors.white), textAlign: TextAlign.center,),
+            onPressed: _launchURL("https://www.deybismelendez.com")
+          ),
+
           Container(height: 60.0)
         ],
+        
       ),
     );
   }

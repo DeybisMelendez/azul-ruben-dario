@@ -1,6 +1,6 @@
-# azul
+# Azul... Rubén Darío
 
-A new Flutter project.
+Es una aplicación desarrollada para llevar a los estudiantes de escasos recursos este libro tan estudiado por los nicaragüenses, totalmente gratuita, sin anuncios y ahora open source.
 
 ## Getting Started
 
