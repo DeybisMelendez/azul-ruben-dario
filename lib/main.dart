@@ -128,7 +128,16 @@ class _HomeState extends State<Home> {
             child: Text("Web del desarrollador", style: TextStyle(color: Colors.white), textAlign: TextAlign.center,),
             onPressed: _launchURL("https://www.deybismelendez.com")
           ),
-
+          RaisedButton(
+            color: Colors.blue,
+            child: Text("Politica de Privacidad", style: TextStyle(color: Colors.white), textAlign: TextAlign.center,),
+            onPressed: _launchURL("https://deybismelendez.github.io/azul-ruben-dario/")
+          ),
+          RaisedButton(
+            color: Colors.blue,
+            child: Text("Código fuente", style: TextStyle(color: Colors.white), textAlign: TextAlign.center,),
+            onPressed: _launchURL("https://github.com/DeybisMelendez/azul-ruben-dario")
+          ),
           Container(height: 60.0)
         ],
         

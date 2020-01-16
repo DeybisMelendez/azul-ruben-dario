@@ -2,6 +2,8 @@
 
 Es una aplicación desarrollada para llevar a los estudiantes de escasos recursos este libro tan estudiado por los nicaragüenses, totalmente gratuita, sin anuncios y ahora open source.
 
+Link de la app: https://play.google.com/store/apps/details?id=io.libro.ruben_dario.azul
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
