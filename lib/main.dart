@@ -103,22 +103,22 @@ class _HomeState extends State<Home> {
           RaisedButton(
             color: Colors.orange,
             child: Text("Prosas Profanas", style: TextStyle(color: Colors.white), textAlign: TextAlign.center,),
-            onPressed: _launchURL("https://play.google.com/store/apps/details?id=io.libro.ruben_dario.prosas_profanas")
+            onPressed: (){_launchURL("https://play.google.com/store/apps/details?id=io.libro.ruben_dario.prosas_profanas");}
           ),
           RaisedButton(
             color: Colors.pink,
             child: Text("Cantos de vida y esperanza", style: TextStyle(color: Colors.white), textAlign: TextAlign.center,),
-            onPressed: _launchURL("https://play.google.com/store/apps/details?id=io.libro.ruben_dario.cantos_de_vida_y_esperanza")
+            onPressed: (){_launchURL("https://play.google.com/store/apps/details?id=io.libro.ruben_dario.cantos_de_vida_y_esperanza");}
           ),
           RaisedButton(
             color: Colors.red,
             child: Text("Ecce Homo", style: TextStyle(color: Colors.white), textAlign: TextAlign.center,),
-            onPressed: _launchURL("https://play.google.com/store/apps/details?id=io.libro.nietzsche.ecce_homo")
+            onPressed: (){_launchURL("https://play.google.com/store/apps/details?id=io.libro.nietzsche.ecce_homo");}
           ),
           RaisedButton(
             color: Colors.yellow[700],
             child: Text("Cantos a la purísima", style: TextStyle(color: Colors.white), textAlign: TextAlign.center,),
-            onPressed: _launchURL("https://play.google.com/store/apps/details?id=io.purisima_griteria.letra_de_canciones")
+            onPressed: (){_launchURL("https://play.google.com/store/apps/details?id=io.purisima_griteria.letra_de_canciones");}
           ),
 
           createTitle("Extras"),
@@ -126,17 +126,17 @@ class _HomeState extends State<Home> {
           RaisedButton(
             color: Colors.blue,
             child: Text("Web del desarrollador", style: TextStyle(color: Colors.white), textAlign: TextAlign.center,),
-            onPressed: _launchURL("https://www.deybismelendez.com")
+            onPressed: (){_launchURL("https://www.deybismelendez.com");}
           ),
           RaisedButton(
             color: Colors.blue,
             child: Text("Politica de Privacidad", style: TextStyle(color: Colors.white), textAlign: TextAlign.center,),
-            onPressed: _launchURL("https://deybismelendez.github.io/azul-ruben-dario/")
+            onPressed: (){_launchURL("https://deybismelendez.github.io/azul-ruben-dario/");}
           ),
           RaisedButton(
             color: Colors.blue,
             child: Text("Código fuente", style: TextStyle(color: Colors.white), textAlign: TextAlign.center,),
-            onPressed: _launchURL("https://github.com/DeybisMelendez/azul-ruben-dario")
+            onPressed: (){_launchURL("https://github.com/DeybisMelendez/azul-ruben-dario");}
           ),
           Container(height: 60.0)
         ],
