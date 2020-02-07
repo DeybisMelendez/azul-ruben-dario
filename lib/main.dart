@@ -111,11 +111,6 @@ class _HomeState extends State<Home> {
             onPressed: (){_launchURL("https://play.google.com/store/apps/details?id=io.libro.ruben_dario.cantos_de_vida_y_esperanza");}
           ),
           RaisedButton(
-            color: Colors.red,
-            child: Text("Ecce Homo", style: TextStyle(color: Colors.white), textAlign: TextAlign.center,),
-            onPressed: (){_launchURL("https://play.google.com/store/apps/details?id=io.libro.nietzsche.ecce_homo");}
-          ),
-          RaisedButton(
             color: Colors.yellow[700],
             child: Text("Cantos a la purísima", style: TextStyle(color: Colors.white), textAlign: TextAlign.center,),
             onPressed: (){_launchURL("https://play.google.com/store/apps/details?id=io.purisima_griteria.letra_de_canciones");}
